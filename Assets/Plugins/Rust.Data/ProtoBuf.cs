@@ -46,7 +46,8 @@ namespace ProtoBuf
 		[ProtoMember(13)] public int splat;
 		[ProtoMember(14)] public int topology;
 		[ProtoMember(15)] public VectorData[] nodes;
-	}
+        [ProtoMember(16)] public int hierarchy;
+    }
 
 	[ProtoContract]
 	public partial class VectorData
